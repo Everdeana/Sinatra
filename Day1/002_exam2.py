@@ -63,5 +63,8 @@ for a1, b1 in zip(a, b): # zip --> 2개의 데이터를 같이 출력 가능
 
 print("-"*80)
 
-
-    
+# 연산자 +, -, *, %, 나머지, 몫 연산자
+ia = 10
+ib = 3
+print(ia % ib)
+print(ia // ib)
