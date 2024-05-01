@@ -74,3 +74,21 @@ print("-"*60)
 data1 = set([10, 20, 30, 40, 40, 40])
 print(data1)
 
+
+# 연산
+#  = [0, 1, 2]
+a1 = [1, 2, 3]
+b1 = [4, 5, 6]
+print(a1)
+print(b1 * 3)
+
+a1[2] = 7
+print(a1)
+
+del(a1[1])
+print(a1)
+
+a1.append(44) # 마지막 추가
+print(a1)
+a1.pop() # 마지막 삭제
+print(a1)
