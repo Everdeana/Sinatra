@@ -155,5 +155,4 @@ else:
 	print("-"*20)
 # DB에서 많이 사용
 
-
-
+# pickle
