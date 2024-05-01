@@ -51,14 +51,26 @@ arrList = [[10, 20, 30], [20, 21, 22], [30, 31, 32]] # 인공지능에선 2차�
 print(arrList)
 print(type(arrList))
 
-# 앞에서 ->  0 	 1   2	 3   4
+# 앞에서 ->  0   1   2   3   4
 arrList1 = [10, 20, 30, 40, 50]
-# 뒤에서 -> -5  -4  -3  -2  -1
+# 뒤에서 ->- 5  -4  -3  -2  -1
 print(arrList1[0])
 print(arrList1[-1])
 
 print("-"*60)
 
-# 슬라이싱(배열, PANDAS)
+# 슬라이싱(배열, PANDAS) --> [첫번째 : 마지막 : 증감]
+# 앞에서 ->  0, 1, 2, 3, 4
 arrList1 = [1, 2, 3, 4, 5] # 3, 4, 5만 슬라이싱
-sliceList1 = arrList1[]
+# 뒤에서 ->	-5,-4,-3,-2,-1
+sliceList1 = arrList1[2:]
+print(sliceList1)
+revList = arrList1[3::-1] # 역순 출력
+print(revList)
+
+print("-"*60)
+
+# set
+data1 = set([10, 20, 30, 40, 40, 40])
+print(data1)
+
