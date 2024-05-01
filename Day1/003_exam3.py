@@ -92,3 +92,61 @@ a1.append(44) # 마지막 추가
 print(a1)
 a1.pop() # 마지막 삭제
 print(a1)
+
+print("-"*60)
+
+# 배열 숫자 카운트
+data11 = [10, 20, 30, 40, 40, 40]
+print(data11.count(40))
+
+print("-"*60)
+
+# 반복문
+aLoop = [10, 20, 30, 40, 50]
+for data in aLoop:
+	print('순번:', data)
+
+print("-"*60)
+
+for idx, data1 in enumerate(aLoop): # 인덱스까지 가져옴
+	print(idx + 1, ':', data1)
+	
+print("-"*60)
+
+aLoop = [10, 20, 30, 40, 50]
+aLoop.reverse() # 참조하는 경우 원본 수정됨
+print(aLoop) # 원본이 날아감
+
+print("-"*60)
+
+# 딕셔너리 --> {"key" : value, ...}
+dic = {'name' : '홍길동', 'age' : 14, 'total' : 99.2}
+print(dic['name']) # str
+print(dic['age']) # int
+print(dic['total']) # float
+
+print("-"*60)
+
+for k in dic.keys(): # key값만 가져옴
+	print(k)
+
+print("-"*60)
+
+for v in dic.values(): # value값만 가져옴
+	print(v)
+
+#조건문
+# a = 10
+# b = 3
+
+a = [10, 20, 30]
+
+if a: # a에 데이터가 있으면
+	print("-"*20)
+	print(a)
+	print("-"*20)
+else:
+	print("-"*20)
+	print('일치하지 않음')
+	print("-"*20)
+# DB에서 많이 사용
