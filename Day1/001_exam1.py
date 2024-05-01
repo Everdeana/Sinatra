@@ -103,3 +103,18 @@ iStr = str(iInt)
 print(iStr)
 print(type(iStr))
 
+# 질문
+a = 100_000 # ,000, --> 반점 자리에 _ 넣으면 숫자로 인식
+print(a)
+print(type(a))
+
+# 참 거짓 처리
+tof = 5 > 10
+print(tof)
+print(type(tof))
+
+# 숫자 함수 --> abs, pow, max, min, round
+print(max(6, 8, 10, 4, 2))
+print(min(6, 8, 10, 4, 2))
+print(abs(-100)) 
+print(pow(4, 2))
