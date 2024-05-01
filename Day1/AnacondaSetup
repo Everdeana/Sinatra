@@ -1,0 +1,197 @@
+(base) PS C:\Users\hi> conda env list
+# conda environments:
+#
+base                  *  C:\Users\hi\anaconda3
+
+(base) PS C:\Users\hi> conda create -n p38_python python=3.8
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\hi\anaconda3\envs\p38_python
+
+  added / updated specs:
+    - python=3.8
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2024.3.11  |       haa95532_0         128 KB
+    libffi-3.4.4               |       hd77b12b_1         122 KB
+    pip-23.3.1                 |   py38haa95532_0         2.8 MB
+    python-3.8.19              |       h1aa4202_0        18.9 MB
+    setuptools-68.2.2          |   py38haa95532_0         933 KB
+    sqlite-3.45.3              |       h2bbff1b_0         973 KB
+    wheel-0.41.2               |   py38haa95532_0         126 KB
+    ------------------------------------------------------------
+                                           Total:        24.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-2024.3.11-haa95532_0
+  libffi             pkgs/main/win-64::libffi-3.4.4-hd77b12b_1
+  openssl            pkgs/main/win-64::openssl-3.0.13-h2bbff1b_0
+  pip                pkgs/main/win-64::pip-23.3.1-py38haa95532_0
+  python             pkgs/main/win-64::python-3.8.19-h1aa4202_0
+  setuptools         pkgs/main/win-64::setuptools-68.2.2-py38haa95532_0
+  sqlite             pkgs/main/win-64::sqlite-3.45.3-h2bbff1b_0
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2
+  wheel              pkgs/main/win-64::wheel-0.41.2-py38haa95532_0
+
+
+Proceed ([y]/n)?
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate p38_python
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) PS C:\Users\hi> conda env list
+# conda environments:
+#
+base                  *  C:\Users\hi\anaconda3
+p38_python               C:\Users\hi\anaconda3\envs\p38_python
+
+(base) PS C:\Users\hi> conda activate p38_python
+(p38_python) PS C:\Users\hi> python
+Python 3.8.19 (default, Mar 20 2024, 19:55:45) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+(p38_python) PS C:\Users\hi> conda env list
+# conda environments:
+#
+base                     C:\Users\hi\anaconda3
+p38_python            *  C:\Users\hi\anaconda3\envs\p38_python
+
+(p38_python) PS C:\Users\hi> conda deactivate
+(base) PS C:\Users\hi> conda env list
+# conda environments:
+#
+base                  *  C:\Users\hi\anaconda3
+p38_python               C:\Users\hi\anaconda3\envs\p38_python
+
+(base) PS C:\Users\hi> conda create -n p311_python python=3.11
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\hi\anaconda3\envs\p311_python
+
+  added / updated specs:
+    - python=3.11
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bzip2-1.0.8                |       h2bbff1b_5          78 KB
+    python-3.11.9              |       he1021f5_0        18.3 MB
+    tzdata-2024a               |       h04d1e81_0         116 KB
+    xz-5.4.6                   |       h8cc25b3_0         587 KB
+    ------------------------------------------------------------
+                                           Total:        19.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              pkgs/main/win-64::bzip2-1.0.8-h2bbff1b_5
+  ca-certificates    pkgs/main/win-64::ca-certificates-2024.3.11-haa95532_0
+  libffi             pkgs/main/win-64::libffi-3.4.4-hd77b12b_1
+  openssl            pkgs/main/win-64::openssl-3.0.13-h2bbff1b_0
+  pip                pkgs/main/win-64::pip-23.3.1-py311haa95532_0
+  python             pkgs/main/win-64::python-3.11.9-he1021f5_0
+  setuptools         pkgs/main/win-64::setuptools-68.2.2-py311haa95532_0
+  sqlite             pkgs/main/win-64::sqlite-3.45.3-h2bbff1b_0
+  tk                 pkgs/main/win-64::tk-8.6.12-h2bbff1b_0
+  tzdata             pkgs/main/noarch::tzdata-2024a-h04d1e81_0
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2
+  wheel              pkgs/main/win-64::wheel-0.41.2-py311haa95532_0
+  xz                 pkgs/main/win-64::xz-5.4.6-h8cc25b3_0
+  zlib               pkgs/main/win-64::zlib-1.2.13-h8cc25b3_0
+
+
+Proceed ([y]/n)?
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate p311_python
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) PS C:\Users\hi> conda env list
+# conda environments:
+#
+base                  *  C:\Users\hi\anaconda3
+p311_python              C:\Users\hi\anaconda3\envs\p311_python
+p38_python               C:\Users\hi\anaconda3\envs\p38_python
+
+(base) PS C:\Users\hi> conda activate p311_python
+(p311_python) PS C:\Users\hi> conda env list
+# conda environments:
+#
+base                     C:\Users\hi\anaconda3
+p311_python           *  C:\Users\hi\anaconda3\envs\p311_python
+p38_python               C:\Users\hi\anaconda3\envs\p38_python
+
+(p311_python) PS C:\Users\hi> python
+Python 3.11.9 | packaged by Anaconda, Inc. | (main, Apr 19 2024, 16:40:41) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+(p311_python) PS C:\Users\hi> conda list
+# packages in environment at C:\Users\hi\anaconda3\envs\p311_python:
+#
+# Name                    Version                   Build  Channel
+bzip2                     1.0.8                h2bbff1b_5
+ca-certificates           2024.3.11            haa95532_0
+libffi                    3.4.4                hd77b12b_1
+openssl                   3.0.13               h2bbff1b_0
+pip                       23.3.1          py311haa95532_0
+python                    3.11.9               he1021f5_0
+setuptools                68.2.2          py311haa95532_0
+sqlite                    3.45.3               h2bbff1b_0
+tk                        8.6.12               h2bbff1b_0
+tzdata                    2024a                h04d1e81_0
+vc                        14.2                 h21ff451_1
+vs2015_runtime            14.27.29016          h5e58377_2
+wheel                     0.41.2          py311haa95532_0
+xz                        5.4.6                h8cc25b3_0
+zlib                      1.2.13               h8cc25b3_0
+(p311_python) PS C:\Users\hi> conda env list
+# conda environments:
+#
+base                     C:\Users\hi\anaconda3
+p311_python           *  C:\Users\hi\anaconda3\envs\p311_python
+p38_python               C:\Users\hi\anaconda3\envs\p38_python
+
+(p311_python) PS C:\Users\hi>
