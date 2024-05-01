@@ -83,7 +83,7 @@ fFlot = float(fStr)
 print(fFlot)
 print(type(fFlot))
 
-################################################################################################
+print("#"*20) ################################################################################
 
 sStr = "23456"
 print(sStr)
@@ -92,3 +92,14 @@ print(type(sStr))
 sInt = int(sStr)
 print(sInt)
 print(type(sInt))
+
+print("#"*20) ################################################################################
+
+iInt = 34567
+print(iInt)
+print(type(iInt))
+
+iStr = str(iInt)
+print(iStr)
+print(type(iStr))
+
