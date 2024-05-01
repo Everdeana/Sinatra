@@ -65,3 +65,30 @@ aa = 1.
 print(aa)
 print(type(aa))
 
+# 여러번 출력
+print("#"*20)
+
+# 문자열 개수 확인
+aTest = "테스트 1234" # 한글도 1자리 --> 유니코드
+print(aTest)
+print(len(aTest))
+
+# 형변환 연산자
+# int --> str / str --> int
+fStr = "1.2345"
+print(fStr)
+print(type(fStr))
+
+fFlot = float(fStr)
+print(fFlot)
+print(type(fFlot))
+
+################################################################################################
+
+sStr = "23456"
+print(sStr)
+print(type(sStr))
+
+sInt = int(sStr)
+print(sInt)
+print(type(sInt))
