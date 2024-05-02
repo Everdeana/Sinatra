@@ -16,16 +16,16 @@ class MyWindow(QMainWindow, form_main): # 윈도우, ui파일 둘 다 가져옴
 		self.btn5.clicked.connect(self.btn5_ok)
 		
 	def btn1_clicked(self):
-		print("버튼 1이 눌렀습니다.")
+		print("버튼 1이 눌렸습니다.")
 		QMessageBox.about(self, "message", "버튼 1이 눌렸습니다.")
 	def btn2_clicked(self):
-		print("버튼 2가 눌렀습니다.")
+		print("버튼 2가 눌렸습니다.")
 		QMessageBox.about(self, "message", "버튼 2가 눌렸습니다.")
 	def btn3_clicked(self):
-		print("버튼 3이 눌렀습니다.")
+		print("버튼 3이 눌렸습니다.")
 		QMessageBox.about(self, "message", "버튼 3이 눌렸습니다.")
 	def btn4_clicked(self):
-		print("버튼 4가 눌렀습니다.")
+		print("버튼 4가 눌렸습니다.")
 		QMessageBox.about(self, "message", "버튼 4가 눌렸습니다.")
 
 	def btn5_ok(self):
