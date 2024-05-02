@@ -15,17 +15,17 @@ class MyWindow(QMainWindow, form_main): # 윈도우, ui파일 둘 다 가져옴
 		self.btn4.clicked.connect(self.btn4_clicked)
 
 	def btn1_clicked(self):
-		print("버튼 1을 눌렀습니다.")
-		QMessageBox.about(self, "message", "button1 clicked")
+		print("버튼 1이 눌렸습니다.")
+		QMessageBox.about(self, "message", "버튼 1이 눌렸습니다.")
 	def btn2_clicked(self):
-		print("버튼 2를 눌렀습니다.")
-		QMessageBox.about(self, "message", "button2 clicked")
+		print("버튼 2가 눌렀습니다.")
+		QMessageBox.about(self, "message", "버튼 2가 눌렸습니다.")
 	def btn3_clicked(self):
-		print("버튼 3을 눌렀습니다.")
-		QMessageBox.about(self, "message", "button3 clicked")
+		print("버튼 3이 눌렀습니다.")
+		QMessageBox.about(self, "message", "버튼 3이 눌렸습니다.")
 	def btn4_clicked(self):
-		print("버튼 4를 눌렀습니다.")
-		QMessageBox.about(self, "message", "button4 clicked")
+		print("버튼 4가 눌렀습니다.")
+		QMessageBox.about(self, "message", "버튼 4가 눌렸습니다.")
 	
 app = QApplication(sys.argv)
 window = MyWindow()
