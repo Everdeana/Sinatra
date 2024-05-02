@@ -14,6 +14,12 @@ class MyWindow(QMainWindow, form_main): # 윈도우, ui파일 둘 다 가져옴
 		self.btn3.clicked.connect(self.btn3_clicked)
 		self.btn4.clicked.connect(self.btn4_clicked)
 		self.btn5.clicked.connect(self.btn5_ok)
+		self.btnSearch.clicked.connect(self.btnSearch_clicked) 
+		
+	def btnSearch_clicked(self):
+		self.searchText = self.lbSearch.text()
+		QMessageBox.about(self, "검색창 검색어", f"'{self.searchText}'이/가 입력되었습니다.")
+		print(self.lbSearch.text())
 		
 	def btn1_clicked(self):
 		print("버튼 1이 눌렸습니다.")
@@ -46,4 +52,3 @@ app = QApplication(sys.argv)
 window = MyWindow()
 window.show()
 app.exec_()
-	
