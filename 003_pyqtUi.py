@@ -13,9 +13,10 @@ class MyWindow(QMainWindow, form_main): # 윈도우, ui파일 둘 다 가져옴
 		self.btn2.clicked.connect(self.btn2_clicked)
 		self.btn3.clicked.connect(self.btn3_clicked)
 		self.btn4.clicked.connect(self.btn4_clicked)
-
+		self.btn5.clicked.connect(self.btn5_ok)
+		
 	def btn1_clicked(self):
-		print("버튼 1이 눌렸습니다.")
+		print("버튼 1이 눌렀습니다.")
 		QMessageBox.about(self, "message", "버튼 1이 눌렸습니다.")
 	def btn2_clicked(self):
 		print("버튼 2가 눌렀습니다.")
@@ -26,6 +27,20 @@ class MyWindow(QMainWindow, form_main): # 윈도우, ui파일 둘 다 가져옴
 	def btn4_clicked(self):
 		print("버튼 4가 눌렀습니다.")
 		QMessageBox.about(self, "message", "버튼 4가 눌렸습니다.")
+
+	def btn5_ok(self):
+		print("버튼 1이 눌렸습니다.")
+		btnQa = QMessageBox.information(
+			self,
+			"삭제",
+			"자료를 삭제하시겠습니까 ?",
+			QMessageBox.Yes | QMessageBox.Cancel
+		)
+
+		if btnQa == QMessageBox.Yes:
+			QMessageBox.about(self, "삭제 완료", "자료를 삭제하였습니다.")
+		if btnQa == QMessageBox.Cancel:
+			QMessageBox.about(self, "삭제 취소", "취소하였습니다.")
 	
 app = QApplication(sys.argv)
 window = MyWindow()
