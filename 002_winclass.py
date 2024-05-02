@@ -11,6 +11,10 @@ class MyWindow(QMainWindow): # QMainWindow 에서 상속받음
 		self.setMinimumWidth(100)
 		self.setWindowIcon(QIcon('testIcon1.png'))
 
+		btn = QPushButton('버튼1', self)
+		btn.move(5, 30)
+		btn.clicked.connect(self.btn_click)
+
 		menubar = self.menuBar()
         
 		menu1 = menubar.addMenu("파일") 
@@ -32,6 +36,10 @@ class MyWindow(QMainWindow): # QMainWindow 에서 상속받음
 
 		menu3.addAction(help)
 		menu3.addAction(version)
+
+	def btn_click(self):
+		print("버튼을 눌렀습니다.")
+
 app = QApplication(sys.argv)
 windowMain = MyWindow()
 windowMain.show()
