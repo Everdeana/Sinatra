@@ -23,3 +23,6 @@
  7. [] : 범위 중 하나만 있으면 됨
 	[a-z] : 소문자만 인식
 	[^abc] : 범위 안의 글자가 존재하면 안됨
+<저연어 처리>
+NLP(Natural Language Process)
+NLU(Natural Language Understand) -> 어렵지만 b
