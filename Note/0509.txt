@@ -51,4 +51,6 @@ pip install django==4.0
 
 top : 서버 상태 확인
 
-data rollback -->
+data rollback --> /var/lib/mysql
+
+
