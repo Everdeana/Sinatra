@@ -1,3 +1,13 @@
+<리눅스>
+ - Linux, Cloud
+ Linux : SentOS(Version:7,8 --> 보안성 ↑), Debian, Ubuntu
+ Cloud : AWS(Free Tier)
+
+ Linux -> Docker
+
+ VirtualBox
+ hackintosh
+
 서버 포트를 4개 오픈
 ssh : 22
 web : 80, 8080, 8000
