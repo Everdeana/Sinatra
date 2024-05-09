@@ -1,3 +1,13 @@
+<리눅스>
+ - Linux, Cloud
+ Linux : SentOS(Version:7,8 --> 보안성 ↑), Debian, Ubuntu
+ Cloud : AWS(Free Tier)
+
+ Linux -> Docker
+
+ VirtualBox
+ hackintosh
+
 서버 포트를 4개 오픈
 ssh : 22
 web : 80, 8080, 8000
@@ -39,8 +49,43 @@ google --> kaggle **************************************************************
 # Mission
 netflix의 데이터 8799개를 DB에 저장
 id : netflix
+pw: @ai1234@
 database : netflixdb
 생성
 netflix_titles.csv 파일을 저장
  # DB 선택
 use [DBname]
+
+# DB 생성
+create database netflixdb;
+
+# user 생성
+create user 'netflix'@'localhost' identified by '@ai1234@'
+create user 'netflix'@'%' identified by '@ai1234@'
+
+# 권한 부여
+
+grant all privileges on netflixdb.* to 'netflix'@'localhost';
+grant all privileges on netflixdb.* to 'netflix'@'%';
+flush privileges;
+
+DB 로그인
+mysql -u netflix -p netflixdb
+
+DB 통합 관리 프로그램
+MySQL WB
+
+서버 : 192.168.56.1
+id : netflix
+
+
+<외부 접속을 위한 포트 열기>
+nano /etc/mysql/mariadb.conf.d/50-server.cnf
+
+mariaDB server 재가동
+systemctl restart mariadb
+
+
+
+
+
