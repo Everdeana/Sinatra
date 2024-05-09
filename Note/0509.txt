@@ -55,3 +55,7 @@ data rollback --> /var/lib/mysql
 
 SELECT문 예시
 SELECT show_id, type, title, director, release_year FROM netflix where country = 'South Korea' and release_year<2022 limit 20;
+SELECT show_id, type, title, director, release_year FROM netflix where country = 'South Korea' and release_year<=2022 order by release_year desc;
+SELECT show_id, type, title, director, release_year FROM netflix where title like '%Naruto%' order by release_year desc;
+SELECT show_id, type, title, director, release_year FROM netflix where release_year in(2015, 2016, 2020) order by release_year asc;
+
