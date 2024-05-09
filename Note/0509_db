@@ -17,3 +17,16 @@ root password : @ai7371@
  - 멈춤
   ~# systemctl stop mariadb (mariaDB)
   ~# systemctl stop mysql (MySQL)
+
+- 시작
+  ~# systemctl start mariadb (mariaDB)
+  ~# systemctl start mysql (MySQL)
+
+# 데이터베이스 접속
+~# mysql -u root -p
+
+# 존재하는 데이터베이스 확인
+show databases;
+
+# 데이터베이스 생성
+google --> kaggle ******************************************************************************************************************************
