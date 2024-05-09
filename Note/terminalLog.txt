@@ -102,6 +102,8 @@
   102  ls
   103  nano settings.py --> ALLOWED_HOSTS = ['*']
   104  history
+  105  cd ..
+  106  python manage.py runserver 0.0.0.0:8080
 
 
 
