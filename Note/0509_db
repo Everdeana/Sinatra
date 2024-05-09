@@ -1,3 +1,8 @@
+서버 포트를 4개 오픈
+ssh : 22
+web : 80, 8080, 8000
+DNS : 53
+
 # 최신 버전 확인
 ~# apt update
 ~# apt upgrade
@@ -30,3 +35,12 @@ show databases;
 
 # 데이터베이스 생성
 google --> kaggle ******************************************************************************************************************************
+
+# Mission
+netflix의 데이터 8799개를 DB에 저장
+id : netflix
+database : netflixdb
+생성
+netflix_titles.csv 파일을 저장
+ # DB 선택
+use [DBname]
