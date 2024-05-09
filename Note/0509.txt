@@ -23,6 +23,19 @@ web8080_rule
 web8000_rule
 mysql_rule
 
-
-
 서버가 정상적으로 열려있는지 확인
+<cmd>
+> ssh
+> ipconfig
+
+ssh 서비스 접속 프로그램 설치
+~# apt-get install openssh-server
+> ssh ai@192.168.56.1  # ssh id@ipadd
+
+Django 프레임워크로 가동
+
+~# apt install python3-pip  
+
+Django 설치 웹포트 테스트
+pip install django==4.0
+
