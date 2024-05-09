@@ -11,9 +11,9 @@
 root password : @ai7371@
 
 # 시스템에서 mariaDB가 잘 동작하는지 확인
-  - 상태 확인
-    ~# systemctl status mariadb (mariaDB)
-    ~# systemctl status mysql (MySQL)
-  - 멈춤
-    ~# systemctl stop mariadb (mariaDB)
-    ~# systemctl stop mysql (MySQL)
+ - 상태 확인
+  ~# systemctl status mariadb (mariaDB)
+  ~# systemctl status mysql (MySQL)
+ - 멈춤
+  ~# systemctl stop mariadb (mariaDB)
+  ~# systemctl stop mysql (MySQL)
