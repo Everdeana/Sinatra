@@ -1,0 +1,19 @@
+# 최신 버전 확인
+~# apt update
+~# apt upgrade
+
+# mariaDB 설치
+~# apt install mariadb-server
+~# apt install mariadb-client
+
+관리자만 가능
+~# mysql_secure_installation
+root password : @ai7371@
+
+# 시스템에서 mariaDB가 잘 동작하는지 확인
+  - 상태 확인
+    ~# systemctl status mariadb (mariaDB)
+    ~# systemctl status mysql (MySQL)
+  - 멈춤
+    ~# systemctl stop mariadb (mariaDB)
+    ~# systemctl stop mysql (MySQL)
