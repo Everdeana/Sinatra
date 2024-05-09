@@ -7,3 +7,22 @@ MySQL, MariaDB : 3306
 
 포트 개방
 ufw 포트를 open/close 할 때 사용하는 명령어
+
+~# ufw allow 22
+~# ufw allow 80
+~# ufw allow 8080
+~# ufw allow 8000
+~# ufw allow 3306
+
+가상머신에서 포트
+NAT(포트와 포트를 연결)
+
+ssh_rule
+web80_rule
+web8080_rule
+web8000_rule
+mysql_rule
+
+
+
+서버가 정상적으로 열려있는지 확인
