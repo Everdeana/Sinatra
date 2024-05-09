@@ -54,4 +54,4 @@ top : 서버 상태 확인
 data rollback --> /var/lib/mysql
 
 SELECT문 예시
-SELECT show_id, type, title, director FROM netflix where country = 'South Korea' limit 10;
+SELECT show_id, type, title, director, release_year FROM netflix where country = 'South Korea' and release_year<2022 limit 20;
