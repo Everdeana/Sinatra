@@ -11,7 +11,7 @@ import openai
 # 원래는 리눅스 환경변수에 KEY를 넣음 --> 해킹 방지
 
 # OPENAI_KEY = os.environment.get(OPENAI_KEY)
-OPENAI_KEY = "sk-proj-V70MibDBoqp7O6Dvb5epT3BlbkFJ6jG683Q8RiBWlW5sdNXs" # 나중에 바뀔 수 있으므로 절대키
+OPENAI_KEY = "openai api 키" # 나중에 바뀔 수 있으므로 절대키
 # export OPENAI_KEY = "sk-proj-V70MibDBoqp7O6Dvb5epT3BlbkFJ6jG683Q8RiBWlW5sdNXs" # 리눅스에 KEY 저장
 openai.api_key = OPENAI_KEY # 키 입력
 
