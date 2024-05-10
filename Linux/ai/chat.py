@@ -12,7 +12,7 @@ import openai
 
 # OPENAI_KEY = os.environment.get(OPENAI_KEY)
 OPENAI_KEY = "openai api 키" # 나중에 바뀔 수 있으므로 절대키
-# export OPENAI_KEY = "sk-proj-V70MibDBoqp7O6Dvb5epT3BlbkFJ6jG683Q8RiBWlW5sdNXs" # 리눅스에 KEY 저장
+# export OPENAI_KEY = "openai api 키" # 리눅스에 KEY 저장
 openai.api_key = OPENAI_KEY # 키 입력
 
 # 3. 인공지능 모델 선택
