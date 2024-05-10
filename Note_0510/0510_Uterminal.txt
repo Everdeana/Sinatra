@@ -1,0 +1,160 @@
+    1  cd /etc
+    2  ls
+    3  cd /etc/default/locale
+    4  cd ..
+    5  pwd
+    6  cd 
+    7  ~
+    8  cd ~
+    9  pwd
+   10  sudo nano /etc/default/locale
+   11  su
+   12  exit
+   13  pwd
+   14  mkdir testDir
+   15  ls
+   16  cd testDir
+   17  touch 
+   18  touch  --help
+   19  touch test.txt
+   20  ls
+   21  nano test.txt
+   22  rm test.txt
+   23  ls
+   24  cd ..
+   25  pwd
+   26  cd ..
+   27  pwd
+   28  cd ..
+   29  pwd
+   30  cd .
+   31  pwd
+   32  cd ~
+   33  pwd
+   34  ls
+   35  pwd
+   36  cd testDir
+   37  ls
+   38  touch test.txt
+   39  touch -a test1.txt
+   40  touch test.py
+   41  nano test.py
+   42  rm test.py
+   43  ls
+   44  cd ..
+   45  pwd
+   46  ls
+   47  rmdir testDir
+   48  rmdir -F testDir
+   49  rmdir -f testDir
+   50  cls
+   51  clear
+   52  le
+   53  ls
+   54  clear
+   55  su -
+   56  exit
+   57  history
+   58  cd helloweb/
+   59  history
+   60  ls
+   61  pwd
+   62  cd testDir
+   63  ls
+   64  rm -a
+   65  cd..
+   66  cd ..
+   67  ls
+   68  rm -rf testDir
+   69  ls
+   70  pwd
+   71  cst /etc/default/locale
+   72  cat /etc/default/locale
+   73  clear
+   74  cat /etc/default/locale
+   75  clear
+   76  pwd
+   77  ls
+   78  cat /etc/default/locale
+   79  id
+   80  uname -a
+   81  sudo apt-get update 
+   82  su -
+   83  ls
+   84  python
+   85  python3
+   86  mkdir ai
+   87  pwd
+   88  ls
+   89  cd /ai
+   90  cd ai
+   91  su -
+   92  pip
+   93  pip install django==4.0
+   94  django startprogect helloweb
+   95  su - 
+   96  python3 -m venv venv
+   97  ls
+   98  source ./venv/bin/activate
+   99  pip install django==4.0
+  100  django startproject helloweb
+  101  pip list
+  102  Django startproject helloweb
+  103  history
+  104  django-admin startproject helloweb
+  105  ls
+  106  cd helloweb
+  107  ls
+  108  nano settings.py 
+  109  history
+  110  cd ..
+  111  python manage.py runserver 0.0.0.0:8000
+  112  cd ~
+  113  cd /ai/helloweb
+  114  cd /ai/helloweb/
+  115  ls
+  116  cd ai
+  117  la
+  118  ls
+  119  cd helloweb
+  120  clear
+  121  ifconfig
+  122  clear
+  123  top
+  124  aot uodate
+  125  apt upgrade
+  126  su -
+  127  exit
+  128  history
+  129  pwd
+  130  lds
+  131  ls
+  132  python
+  133  python3
+  134  ls
+  135  cd /var/log
+  136  ls
+  137  history
+  138  cd ~
+  139  ls -al
+  140  clear
+  141  su -
+  142  systemctl status mariadb
+  143  systemctl start mariadb
+  144  systemctl status mariadb
+  145  mysql -u root -p
+  146  pip list
+  147  python3 -m venv vnev
+  148  python3 -m venv venv
+  149  pip list
+  150  activate
+  151  clear
+  152  pi plist
+  153  pip list
+  154  clear
+  155  pip install openai
+  156  pip liat
+  157  pip list
+  158  cls
+  159  clear
+  160  history
