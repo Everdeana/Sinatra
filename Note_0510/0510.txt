@@ -3,5 +3,15 @@ Meta Llama3
 SOTA
 
 <VS code 원격 접속>
+1. ubuntu ai 폴더에 chatAi 폴더 생성
+2. Remote Develpoment 설치
+3. ssh ai@192.168.56.1 --> host 주소 입력
+4. Host 추가 후 다시 CP에 remote ssh ~ Host 입력
+5. 폴더 오픈 후 chatAI 선택
+6. test.py 만든 후 아래 파이썬 확장 설치
+7. venv 환경 설정 --> python3 -m venv venv
+8. openai install --> pip install openai
+9. 
+
 
 
