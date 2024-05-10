@@ -59,6 +59,8 @@ grant all privileges on netflixdb.* to 'netflix'@'localhost';
 grant all privileges on netflixdb.* to 'netflix'@'%';
 flush privileges;
 
+show grants for 'user'@'접속위치';
+
 DB 로그인
 mysql -u netflix -p netflixdb
 
