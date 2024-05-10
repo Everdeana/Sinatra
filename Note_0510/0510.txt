@@ -1,3 +1,7 @@
 Meta Llama3
 
 SOTA
+
+<VS code 원격 접속>
+
+
